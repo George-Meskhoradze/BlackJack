@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arvo', serif;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background: url(/bgg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.795);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.talk-text {
+  font-size: 1.7rem;
+  color: white;
+  margin-top: 50px;
+}
+
+.dice-container {
+  width: 300px;
+  height: 190px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.dice-one {
+  width: 185px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: black;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 8px;
+}
+
+.dice-two{
+  width: 185px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: black;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 8px;
+}
+
+.dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.num-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 700;
+  color:white;
+  margin-top: 5px;
+}
+
+.num-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 700;
+  color:white;
+  margin-top: 5px;
+}
+
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  height: 115px;
+  margin-top: 40px;
+}
+
+.btn-one {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(255, 0, 0);
+  font-size: 1.6rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  user-select: none;
+}
+
+.btn-two {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(255, 0, 0);
+  font-size: 1.6rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  user-select: none;
+}
+
+.btn-one:hover {
+  background-color: rgb(26, 25, 25);
+}
+
+.btn-two:hover {
+  background-color: rgb(26, 25, 25);
+}
+
+.score-container {
+  width: 450px;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.highscore {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+}
+
+.currentscore {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+  .bg {
+    width: 100%;
+    height: 100vh;
+    background: url(/bgg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 360px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  
+  .talk-text {
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 35px;
+  }
+  
+  .dice-container {
+    width: 280px;
+    height: 170px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .dice-one {
+    width: 175px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+  }
+  
+  .dice-two{
+    width: 175px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+  }
+  
+  .dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .num-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color:white;
+    margin-top: 5px;
+  }
+  
+  .num-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color:white;
+    margin-top: 5px;
+  }
+  
+  
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 280px;
+    height: 115px;
+    margin-top: 40px;
+  }
+  
+  .btn-one {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    user-select: none;
+  }
+  
+  .btn-two {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    user-select: none;
+  }
+  
+  .btn-one:hover {
+    background-color: rgb(26, 25, 25);
+  }
+  
+  .btn-two:hover {
+    background-color: rgb(26, 25, 25);
+  }
+  
+  .score-container {
+    width: 360px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .highscore {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .currentscore {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+
+  .bg {
+    width: 100%;
+    height: 100vh;
+    background: url(/bgg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 260px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 16px;
+    font-weight: 700;
+  }
+  
+  .talk-text {
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 25px;
+  }
+  
+  .dice-container {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dice-one {
+    width: 95px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+  }
+  
+  .dice-two{
+    width: 95px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+  }
+  
+  .dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .num-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color:white;
+    margin-top: 5px;
+  }
+  
+  .num-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color:white;
+    margin-top: 5px;
+  }
+  
+  
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  
+  .btn-one {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    user-select: none;
+  }
+  
+  .btn-two {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    user-select: none;
+  }
+  
+  .btn-one:hover {
+    background-color: rgb(26, 25, 25);
+  }
+  
+  .btn-two:hover {
+    background-color: rgb(26, 25, 25);
+  }
+  
+  .score-container {
+    width: 260px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .highscore {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .currentscore {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+  }  
+}
