@@ -1,1 +1,1 @@
-Game named BlackJack is fun game you have to start play with first button name Play and if your number equal was greater than 25 you are out of the game but if its less than 25 you can continue the game and your score will increase as well
+Game named BlackJack is fun game you have to start play with first button named Play and if your number equal was greater than 25 you are out of the game but if its less than 25 you can continue the game and your score will increase as well
